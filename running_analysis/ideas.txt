@@ -1,0 +1,9 @@
+Le but de ce projet est de pouvoir analyser des vidéos de course en créant les segments du tronc et des jambes. 
+
+Python (langage de programmation)
+
+OpenCV (traitement vidéo et image)
+
+Mediapipe (détection de pose humaine)
+
+Matplotlib ou OpenCV pour le tracé de lignes sur les images
