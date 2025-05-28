@@ -52,11 +52,15 @@ if submit:
     nouvelle_ligne = {
         "id": new_id,
         "type": type_,
+        'sous_type':subtype,
+        'sport':Sport,
+        'saison':saison,
         "couleur": couleur,
         "marque": marque,
         "année_achat": int(annee),
-        # "nb_ports": int(nb_ports),
-        # "date_dernier_port": str(dernier_port),
+        'type_achat':type_achat,
+        "nb_ports":0,
+        "date_dernier_port": None,
         "notes": notes,
         "photo": photo_filename
     }
